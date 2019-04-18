@@ -1,0 +1,40 @@
+//"mongoose": "^5.5.2" ^(caret)Major.Minor.Patch  ^ means that we are interesed in any major version of 5 5.x
+//"underscore": "^1.9.1"  ~1.9.1 === 1.9.x
+
+// npm init --yes
+
+// npm list
+// npm list --depth=0 to list only dependencies of my app
+
+// npm view mongoose
+// npm view mongoose version
+
+// npm i mongoose@2.4.2
+// npm i -g 'name' -> to install a global package
+// npm un mongoose -> to uninstall
+
+// npm outdated -> shows us the packages that are outdated
+// npm update
+
+// npm i -g npm-check-updates
+// npm-check-updates -u
+
+
+// npm publish
+// npm version (major, minor, patch)
+
+
+// EXPORTING ENVIROMENT VARIABLES
+
+// DEBUG MODULE
+// export DEBUG=app*
+// export DEBUG=app:startup,app:db
+
+// CHANGING THE ENVIRONMENT
+
+// export NODE_ENV=development/production/test
+
+
+// exporting password so we don't post them to the version control(git)
+// export app_password=1234
+
